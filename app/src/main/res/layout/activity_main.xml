@@ -1,0 +1,30 @@
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Username"
+         android:gravity="center"
+         android:id="@+id/username" />
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Password"
+         android:gravity="center"
+         android:id="@+id/password" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Submit"
+         android:id="@+id/submit"
+         android:onClick="submit"
+         android:layout_gravity="center_horizontal" />
+
+ </LinearLayout>
